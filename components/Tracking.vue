@@ -45,10 +45,25 @@
           <hr class="my-4" />
           <h3 class="text-sm font-semibold text-gray-500 mb-3">Status</h3>
           <p
-            class="text-xs md:text-sm text-gray-50 bg-green-500 w-20 py-2 pl-3 rounded-3xl font-medium"
+            class="text-xs md:text-sm text-gray-50 w-24 py-2 px-3 rounded-3xl font-medium text-center"
+            :class="{
+              'bg-green-500': shipmentData.status === 'Shipped',
+              'bg-yellow-500': ['En Route', 'Arrived', 'Processed'].includes(
+                shipmentData.status
+              ),
+              'bg-red-500': shipmentData.status === 'Hold',
+              'bg-gray-500': ![
+                'Shipped',
+                'En Route',
+                'Arrived',
+                'Processed',
+                'Hold',
+              ].includes(shipmentData.status),
+            }"
           >
             {{ shipmentData.status || "Pending" }}
           </p>
+
           <!-- Shipment Information -->
           <div class="mb-4 mt-2">
             <h3 class="text-sm font-semibold text-gray-600">Shipment Info:</h3>
@@ -78,17 +93,19 @@
         </div>
       </div>
 
-      <hr class="sma:hidden ml-3 w-11/12">
+      <hr class="sma:hidden ml-3 w-11/12" />
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-4">
         <div class="p-3 rounded-sm">
           <h3 class="text-sm md:text-xl font-semibold text-gray-500 mb-3">
             Location Info
           </h3>
           <p class="text-sm md:text-xl text-gray-700">
-            <strong>Previous Location:</strong> {{ shipmentData.location.previous }}
+            <strong>Previous Location:</strong>
+            {{ shipmentData.location.previous }}
           </p>
           <p class="text-sm md:text-xl text-gray-700">
-            <strong>Current Location:</strong> {{ shipmentData.location.current }}
+            <strong>Current Location:</strong>
+            {{ shipmentData.location.current }}
           </p>
         </div>
       </div>

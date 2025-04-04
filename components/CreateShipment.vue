@@ -160,7 +160,7 @@ const db = getFirestore(getApp());
 const loading = ref(false);
 
 // Status Options
-const statuses = ["Processed", "Shipped", "En Route", "Arrived"];
+const statuses = ["Processed", "Shipped", "En Route", "Arrived","Hold" ];
 const selectedStatus = ref("");
 const shipmentInfo = ref(""); // New state for Shipment Info
 

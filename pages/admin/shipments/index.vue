@@ -85,8 +85,24 @@
               </span>
             </div>
 
-            <span class="status-badge">
-              {{ shipment.status }}
+            <span
+              class="status-badge"
+              :class="{
+                'bg-green-500': shipment.status === 'Shipped',
+                'bg-yellow-500': ['En Route', 'Arrived', 'Processed'].includes(
+                  shipment.status
+                ),
+                'bg-red-500': shipment.status === 'Hold',
+                'bg-gray-500': ![
+                  'Shipped',
+                  'En Route',
+                  'Arrived',
+                  'Processed',
+                  'Hold',
+                ].includes(shipment.status),
+              }"
+            >
+              {{ shipment.status || "Pending" }}
             </span>
           </div>
         </div>
@@ -250,8 +266,9 @@ onMounted(fetchShipments);
 }
 
 .status-badge {
-  @apply font-semibold py-1 px-3 bg-green-600 text-sm rounded-3xl text-white w-fit;
+  @apply font-semibold py-1 px-3 text-sm rounded-3xl text-white w-fit;
 }
+
 
 .button-group {
   @apply flex gap-2 p-3;

@@ -117,7 +117,7 @@ const props = defineProps({
 
 const emit = defineEmits(["close"]); // Emit close event to parent
 
-const statuses = ["Processed", "Shipped", "En Route", "Arrived"];
+const statuses = ["Processed", "Shipped", "En Route", "Arrived" ,"Hold"];
 const selectedStatus = ref("");
 const shipperFields = ref([]);
 const receiverFields = ref([]);
