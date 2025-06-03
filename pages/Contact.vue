@@ -5,11 +5,11 @@
           <!-- Left Side: Info Section -->
           <div>
             <h2 class="text-2xl font-semibold">
-              Have a question about <span class="text-blue-500">Motion Express Way?</span>
+              Have a question about <span class="text-blue-500">Swift Delivery Way?</span>
             </h2>
             <p class="mt-2 text-lg text-gray-700 font-bold">We're here to help.</p>
             <p class="mt-4 text-gray-600">
-              Motion Express Way is the leading Cloud & Delivery Experience platform.
+              Swift Delivery Way is the leading Cloud & Delivery Experience platform.
               If you need support, feel free to contact us.
             </p>
             <div class="mt-6">
@@ -17,7 +17,7 @@
                 📞 Call us at: <span class="ml-2 text-blue-500">+1-800-555-1234</span>
               </p>
               <p class="mt-2 text-gray-700 font-semibold flex items-center">
-                📧 Email us: <a href="mailto:support@motionexpressway.com" class="ml-2 text-blue-500">support@motionexpressway.com</a>
+                📧 Email us: <a href="mailto:support@swiftdeliveryway.com" class="ml-2 text-blue-500">support@swiftdeliveryway.com</a>
               </p>
             </div>
             <!-- Logos -->

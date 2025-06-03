@@ -9,7 +9,7 @@
             >
               <div class="w-full text-white flex flex-col justify-center items-center">
                 <img class="w-16" src="/images/logo.png" alt="" />
-                Motion Express Way
+                Swift Delivery Way
               </div>
             </div>
           </nuxt-link>

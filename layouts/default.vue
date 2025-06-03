@@ -18,14 +18,17 @@ onMounted(() => {
 
   if (process.client) {
     window._smartsupp = window._smartsupp || {};
-    window._smartsupp.key = "b7c71abb85c6f6898a3ea4099d4d8b8ce488e2c3"; // Your Smartsupp key
+    window._smartsupp.key = "7206999377254c63fa2936bb96c426367b6fcc03";
 
-    const script = document.createElement("script");
-    script.type = "text/javascript";
-    script.async = true;
-    script.src = "https://www.smartsuppchat.com/loader.js";
-    script.onload = () => console.log("Smartsupp loaded on default layout");
-    document.head.appendChild(script);
+    if (!window.smartsupp) {
+      const s = document.getElementsByTagName('script')[0];
+      const c = document.createElement('script');
+      c.type = 'text/javascript';
+      c.charset = 'utf-8';
+      c.async = true;
+      c.src = 'https://www.smartsuppchat.com/loader.js?';
+      s.parentNode.insertBefore(c, s);
+    }
   }
 });
 </script>

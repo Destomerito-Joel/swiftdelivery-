@@ -14,7 +14,7 @@
           </div>
           <div class="flex items-center gap-4 animate-fadeIn delay-500">
             <span class="text-blue-500 text-xl">📧</span>
-            <p>support@motionexpressway.com</p>
+            <p>support@swiftdeliveryway.com</p>
           </div>
         </div>
       </div>

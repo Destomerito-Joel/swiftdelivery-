@@ -10,7 +10,7 @@
         style="background-image: url(/images/transport.jpg);">
       </div>
       <h1 class="relative mx-auto font-semibold sm:font-bold sm:text-xl md:text-4xl sm:mt-28 fade-in">
-        WELCOME TO MOTION EXPRESS WAY
+        WELCOME TO Swift Delivery Way
       </h1>
       <p class="relative mx-auto sm:font-semibold text-sm fade-in" data-delay="0.3">
         Unbeatable Tracking and Shipment Service

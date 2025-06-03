@@ -32,7 +32,7 @@
       >
         <div class="w-full">
           <img class="w-16" src="/images/logo.png" alt="" />
-          Motion Express Way
+          Swift Delivery Way
         </div>
       </div>
 
