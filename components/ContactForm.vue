@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col lg:flex-row items-center justify-between gap-8 bg-white p-6 lg:p-12">
-      <!-- Contact Info -->
+      <!-- Contact Inf -->
       <div class="w-full lg:w-1/3 space-y-6">
         <h2 class="text-3xl font-bold text-gray-800 animate-fadeIn">Get In Touch With Us</h2>
    
