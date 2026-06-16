@@ -4,7 +4,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Left Section: Company Info -->
           <div>
-            <h2 class="text-lg font-semibold">Swift Delivery Ways</h2>
+            <h2 class="text-lg font-semibold">Swift Deliver Ways</h2>
             <p class="mt-3 text-gray-400">
               We are an international team of over 400,000 shipping professionals,
               united by a passion for logistics.
@@ -51,7 +51,7 @@
             <a href="/service" class="hover:text-white">Services</a>
             <a href="/contact" class="hover:text-white">Contact</a>
           </nav>
-          <p class="mt-4 md:mt-0 text-gray-400">© 2021 swiftdeliveryways.online All rights reserved.</p>
+          <p class="mt-4 md:mt-0 text-gray-400">© 2021 swiftdeliverways.online All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -47,12 +47,12 @@
     },
     {
       title: "Cut Costs, Not Corners",
-      description: "Swift Delivery Way saved businesses $4M last year by surfacing the best shipping rates.",
+      description: "Swift Deliver Way saved businesses $4M last year by surfacing the best shipping rates.",
       icon: "💲",
     },
     {
       title: "Grow Your Business",
-      description: "Customers report scaling operations over 40x with Swift Delivery Way help.",
+      description: "Customers report scaling operations over 40x with Swift Deliver Way help.",
       icon: "🚀",
     },
   ];

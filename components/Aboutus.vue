@@ -21,7 +21,7 @@
           <div class="text-gray-900 flex flex-col gap-2">
            <h1 class="font font-semibold text-xl sm:text-3xl text-blue-600">About us</h1>
            <p class="text-sm font-semibold text-gray-800 sm:text-2xl">Who we are</p>
-           <p class="text-sm text-gray-700 sm:text-xl">We are an international team of over 400,000 shipping professionals, united by a passion for logistics. And we work in a unique environment. Swift Delivery Ways is as innovative as a start-up, with the power of an international organization.</p>
+           <p class="text-sm text-gray-700 sm:text-xl">We are an international team of over 400,000 shipping professionals, united by a passion for logistics. And we work in a unique environment. Swift Deliver Ways is as innovative as a start-up, with the power of an international organization.</p>
           </div>
   
         </div>
