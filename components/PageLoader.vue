@@ -10,12 +10,12 @@
 import { ref, onMounted } from 'vue';
 
 const loading = ref(true);
-
-onMounted(() => {
-  setTimeout(() => {
-    loading.value = false; // Hide loader after 2.5 seconds
-  }, 2500);
-});
+// Hide loader after 2.5 seconds
+// onMounted(() => {
+//   setTimeout(() => {
+//     loading.value = false; 
+//   }, 2500);
+// });
 </script>
 
 <style scoped>
