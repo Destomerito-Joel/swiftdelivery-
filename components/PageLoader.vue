@@ -10,7 +10,7 @@
 import { ref, onMounted } from 'vue';
 
 const loading = ref(true);
-Hide loader after 2.5 seconds
+// Hide loader after 2.5 seconds
 onMounted(() => {
   setTimeout(() => {
     loading.value = false; 
